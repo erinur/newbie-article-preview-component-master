@@ -269,7 +269,8 @@ main {
   align-items: center;
   justify-content: center;
   background-color: var(--light-grayish-blue);
-  top: 3px
+  top: 3px;
+  z-index: 1;
 }
 
 #share-on {
@@ -292,6 +293,7 @@ main {
   justify-content: center;
   background-color: var(--desaturated-dark-blue);
   top:3px;
+  z-index: -1;
 }
 
 #share-icon-on svg {
@@ -310,6 +312,7 @@ main {
   flex-direction: column;
   align-items:center;
   top:-77px;
+  z-index: -1;
 }
 
 #contenido-share-box {
@@ -408,19 +411,18 @@ main {
     #share-icon-off{
       top:0px;
       right: 0px;
-      z-index: 1;
     }
     
     #share-icon-on{
       top:0px;
       right: 0px;
-      z-index: -1;
+
     }
     
     #share-box {
       top:-16px;
       right: -35px;
-      z-index: -1;
+
     }
     
     #contenido-share-box {
